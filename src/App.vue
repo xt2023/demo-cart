@@ -3,6 +3,7 @@
   <!-- header模块-->
     <Header></Header>
     <Goods v-for="item in list" :key="item.id"></Goods>
+    <div></div>
   </div>
 </template>
 
